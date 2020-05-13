@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\CAVERSAN\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CAVERSAN\\.nuget\\packages"
+    ]
+  }
+}

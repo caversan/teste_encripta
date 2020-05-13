@@ -1,0 +1,13 @@
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.exe
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.deps.json
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.runtimeconfig.json
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.runtimeconfig.dev.json
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.dll
+C:\Users\CAVERSAN\Desktop\teste_encripta\bin\Debug\netcoreapp3.1\teste_encripta.pdb
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.csprojAssemblyReference.cache
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.csproj.CoreCompileInputs.cache
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.AssemblyInfoInputs.cache
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.AssemblyInfo.cs
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.dll
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.pdb
+C:\Users\CAVERSAN\Desktop\teste_encripta\obj\Debug\netcoreapp3.1\teste_encripta.genruntimeconfig.cache
