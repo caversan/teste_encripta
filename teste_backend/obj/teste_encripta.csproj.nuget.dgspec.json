@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_encripta.csproj": {}
+    "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\teste_encripta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_encripta.csproj": {
+    "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\teste_encripta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_encripta.csproj",
+        "projectUniqueName": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\teste_encripta.csproj",
         "projectName": "teste_encripta",
-        "projectPath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_encripta.csproj",
+        "projectPath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\teste_encripta.csproj",
         "packagesPath": "C:\\Users\\CAVERSAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\obj\\",
+        "outputPath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CAVERSAN\\AppData\\Roaming\\NuGet\\NuGet.Config"

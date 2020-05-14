@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fOx+/6G5Ax0uSvemKSlI2SgUMXmT9HJDzFHCS85lraODAseTl4pMdKj8G/FwWL3e7ZTzz2J4jHriJL9SCAEEPQ==",
+  "dgSpecHash": "mojS0xhDlix9AjQSlPxNb/DmnXgfsL0IwHShE50vbVnKh3//GdRhFi/ZgMe2MDMP/HgIiFlHVwrFnUw5cAjzng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_encripta.csproj",
+  "projectFilePath": "C:\\Users\\CAVERSAN\\Desktop\\teste_encripta\\teste_backend\\teste_encripta.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
