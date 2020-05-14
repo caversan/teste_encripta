@@ -1,0 +1,41 @@
+<head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        div {
+            background-color: #aaaaaa;
+            border: 1px solid #555555
+        }
+        
+        .box-hover {
+            background-color: blue;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $(".okButton").css("border", "1px solid red");
+            $("div").hover(
+                function() {
+                    $(this).addClass("box-hover");
+                },
+                function() {
+                    $(this).removeClass("box-hover");
+                }
+            );
+        });
+    </script>
+</head>
+
+<body>
+    <div class="okButton">
+        <p>OK Button! - Passe o mouse por cima.</p>
+    </div>
+    <div class="okButton">
+        <p>OK Button! - Passe o mouse por cima.</p>
+    </div>
+    <div class="notOkButton">
+        <p>Not OK Button - Passe o mouse por cima.</p>
+    </div>
+    <div class="notOkButton">
+        <p>Not OK Button - Passe o mouse por cima.</p>
+    </div>
+</body>
