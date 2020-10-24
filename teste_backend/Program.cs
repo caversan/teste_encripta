@@ -5,7 +5,7 @@ using static System.Console;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Drawing;
-
+using ExtensionMethods;
 
 namespace teste_encripta
 {
@@ -42,24 +42,27 @@ namespace teste_encripta
                 new Pessoa { Id=1, Nome="Adriano", Sobrenome="Caversan", DataNascimento=new DateTime(1976, 07, 02), Empresa=Empresas[0]},
             };
 
-            //var orderedPesssoas = Pessoas.OrderBy(Pessoa => Pessoa.Sobrenome).ToList();
+            var orderedPesssoas = Pessoas.OrderByDescending(Pessoa => Pessoa.Sobrenome).ToList();
             
-            var orderedPesssoas = (from Pessoa in Pessoas.AsParallel().AsOrdered() select Pessoa);
+            //var orderedPesssoas = (from Pessoa in Pessoas.AsParallel().AsOrdered() orderby Pessoa.Sobrenome descending select Pessoa);
 /*
 var orderedCities = (from city in cities.AsParallel().AsOrdered()
                      where city.Population > 10000
                      select city)
                     .Take(1000);*/
 
-            /*foreach (var Pessoa in orderedPesssoas)
-            {.AsOrdered()
-                Console.WriteLine("{0} {1} {2} {3}", Pessoa.Nome, Pessoa.Sobrenome, String.Format("{0:dd/MM/yyyy}", Pessoa.DataNascimento), Pessoa.Empresa.Nome);
-            }*/
-
+            // foreach (var Pessoa in orderedPesssoas)
+            // {
+            //     Console.WriteLine("{0} {1} {2} {3}", Pessoa.Nome, Pessoa.Sobrenome, String.Format("{0:dd/MM/yyyy}", Pessoa.DataNascimento), Pessoa.Empresa.Nome);
+            // }
+            Console.WriteLine("");
             Parallel.ForEach(orderedPesssoas, Pessoa => {
                 Console.WriteLine("{0} {1} {2} {3}", Pessoa.Nome, Pessoa.Sobrenome, String.Format("{0:dd/MM/yyyy}", Pessoa.DataNascimento), Pessoa.Empresa.Nome);
             });
-
+            Console.WriteLine("");
+            string s = "Hello Extension Methods";
+int i = s.WordCount();
+            
         }
     }
 }
