@@ -24,10 +24,8 @@
             }
         }
         if (e.keyCode == 38) { // up
-            if ($('.selected').prev('.box').length) {
-                $('.selected').removeClass('selected');
-                $('[data-listindex=0]').find('.box').eq(navColumn).addClass('selected');
-            }
+            $('.selected').removeClass('selected');
+            $('[data-listindex=0]').find('.box').eq(navColumn).addClass('selected');
         }
         if (e.keyCode == 39) { // right
             if ($('.selected').next('.box').length) {
@@ -36,11 +34,8 @@
             }
         }
         if (e.keyCode == 40) { // down
-            if ($('.selected').next('.box').length) {
-                $('.selected').removeClass('selected');
-                $('[data-listindex=1]').find('.box').eq(navColumn).focus().addClass('selected');
-            }
-
+            $('.selected').removeClass('selected');
+            $('[data-listindex=1]').find('.box').eq(navColumn).focus().addClass('selected');
         }
         console.log(navColumn)
     });
